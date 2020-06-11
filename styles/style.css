@@ -1,0 +1,21 @@
+html {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 26px;
+}
+
+body {
+    background-color: #121212;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+h1, p, div {
+    color: white;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
