@@ -7,6 +7,18 @@ const lowOrHi = document.querySelector('.lowOrHi');
 const guessSubmit = document.querySelector('.guessSubmit');
 const guessField = document.querySelector('.guessField');
 
+const select = document.querySelector('select');
+document.body.style.padding = '10px';
+
+function update(bgColor, textColor) {
+  document.body.style.backgroundColor = bgColor;
+  document.body.style.color = textColor;
+}
+
+select.onchange = function() {
+  ( select.value === 'black' ) ? update('#121212','white') : update('white','#121212');
+}
+
 let guessCount = 1;
 let resetButton;
 guessField.focus()
