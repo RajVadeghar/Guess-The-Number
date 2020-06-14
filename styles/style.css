@@ -5,14 +5,26 @@ html {
 
 body {
     background-color: #121212;
+    color: white;
     width: 50%;
     max-width: 800px;
     min-width: 480px;
     margin: 0 auto;
 }
 
-h1, p, div {
-    color: white;
+div.a {
+    position: absolute;
+    right: 0;
+    padding-right: 35px;
+}
+
+.select-css {
+	color: rgb(80, 77, 77);
+    padding: 4px 8px;
+    font-weight: bold;
+	border-radius: 25px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
 }
 
 .lastResult {
