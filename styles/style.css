@@ -30,8 +30,8 @@ div.a {
 .guessField {
     border-radius: 20px;
     padding-left: 10px;
-    width: 400px;
-    height: 2em;
+    width: 200px;
+    height: 1.5em;
 }
 
 .guessSubmit {
